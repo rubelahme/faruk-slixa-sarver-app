@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+.Info {
+  color: whitesmoke;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+  font-weight: 400;
+}
+.Features {
+  background-color: #202020 !important;
+}
+.Join {
+  background-color: #0074cc;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 5px 12px;
+  color: #fafafa;
+  border: none;
+}
+.Unlock {
+  background: #ffdf00;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Girls {
+  background: #ffdf00 !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  margin-bottom: 12px;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fredricksburg {
+  padding: 10px;
+  border: 1px solid #cecdcd;
+  border-radius: 5px;
+}
+.EMAILslixa {
+  color: #505050;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+}
+.invoking {
+  border-bottom: 1px solid #cecdcd;
+}
+.validation {
+  background-color: #0074cc;
+  border: 1px solid #0074cc;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#08c),
+    to(#05c)
+  );
+  background-repeat: repeat-x;
+  color: #fafafa;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.Forgot {
+  color: #0088cc;
+}
+.Forgot:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #353535;
+}
+.plus {
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 160px;
+  background-color: #202020;
+  color: #fafafa;
+}
+.Twitter {
+  position: relative;
+}
+.SlixaPublic {
+  position: absolute;
+  top: 6px;
+  right: 16px;
+  font-size: 14px;
+}
+.FAQ {
+  margin-left: 20px !important;
+}
+.SlixaPublics {
+  position: absolute;
+  top: 45px;
+  right: 16px;
+  font-size: 14px;
+}
+.Publics {
+  position: absolute;
+  top: 80px;
+  right: 16px;
+  font-size: 14px;
+}
+.Reserved {
+  position: absolute;
+  top: 120px;
+  right: 16px;
+  font-size: 14px;
+  color: #fafafa;
+  opacity: 0.7;
+  font-size: 10px;
+}
+.Human {
+  color: #fafafa;
+  background-color: #0d0d0d;
+}
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.PublicSiteContact {
+  color: #08c;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.PublicSiteContact:hover {
+  background: #fafafa;
+  color: #000;
+  border: 1px solid #d1d0d0;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.abhorrent {
+  cursor: pointer;
 }
